@@ -1,6 +1,20 @@
 # First you update your system
 sudo apt-get update && sudo apt-get dist-upgrade
 
+# Install Element Tweaks
+sudo apt-add-repository ppa:versable/elementary-update
+sudo apt-get update
+sudo apt-get install elementary-tweaks
+
+# Restore minimize button in Elementary OS
+System Settings -> Tweaks -> Appearance -> Button Layout
+
+# Install Gnome Disks
+sudo apt-get install gnome-disk-utility
+
+# Set to mount disk at startup
+Open Gnome Disks -> Mount Options -> disable Automatic Mount Options -> mark Mount on Startup
+
 # Install Gnome Software
 sudo apt install gnome-software
 
@@ -36,3 +50,6 @@ sudo apt-get install gnome-system-monitor
 
 # Uninstall package
 sudo apt-get --purge remove ...
+
+# Remove PPA
+sudo add-apt-repository --remove ...
