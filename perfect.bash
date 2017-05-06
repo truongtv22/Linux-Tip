@@ -1,8 +1,3 @@
-# How to Install the perfect Elementary OS
-
-# Download Elementary OS from here: 
-# https://elementary.io/
-
 # First you update your system
 sudo apt-get update && sudo apt-get dist-upgrade
 
