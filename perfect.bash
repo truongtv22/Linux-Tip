@@ -1,6 +1,10 @@
 # First you update your system
 sudo apt-get update && sudo apt-get dist-upgrade
 
+# Disable update-apt-xapi
+sudo chmod a-x /etc/cron.weekly/apt-xapian-index
+sudo echo 'APT::Periodic::Enable "0";' >> sudo /etc/apt/apt.conf.d/10periodic
+
 # Install Element Tweaks
 sudo apt-add-repository ppa:versable/elementary-update
 sudo apt-get update
