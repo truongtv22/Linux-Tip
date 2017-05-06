@@ -20,6 +20,11 @@ JAVA_HOME="/usr/lib/jvm/java-8-oracle" # add the end of this file, save and exit
 source /etc/environment # reload it
 echo $JAVA_HOME # test whether the environment variable
 
+# Install script nvm (Node Version Manager) using cURL
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash # https://github.com/creationix/nvm
+nvm ls-remote # list versions Node.js
+nvm install v6.10.3 # install last version Node.js
+
 # Install Git last version
 sudo add-apt-repository ppa:git-core/ppa
 sudo apt-get update
