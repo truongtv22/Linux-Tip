@@ -7,7 +7,10 @@ sudo apt-get update
 sudo apt-get install elementary-tweaks
 
 # Restore minimize button in Elementary OS
-System Settings -> Tweaks -> Appearance -> Button Layout
+Open System Settings -> Tweaks -> Appearance -> Button Layout
+
+# Show desktop icons on Elementary OS
+http://www.fosslinux.com/141/how-to-enable-adding-files-and-folders-to-desktop-in-elementary-os-freya.htm
 
 # Install Gnome Disks
 sudo apt-get install gnome-disk-utility
