@@ -33,6 +33,10 @@ sudo gdebi *.deb
 sudo apt-get update
 sudo apt-get install gnome-system-monitor
 
+# Install VLC 3.0 Nightly
+sudo add-apt-repository ppa:videolan/master-daily
+sudo apt install vlc
+
 # Uninstall package
 sudo apt-get --purge remove ...
 
