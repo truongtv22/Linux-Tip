@@ -24,3 +24,9 @@ sudo apt-get install git
 # ~/.bashrc
 export ANDROID_HOME="/mnt/0436A97F36A9727A/android-sdk-linux"
 export PATH="$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
+
+# Install Gradle
+https://gradle.org/releases
+
+export PATH=$PATH:/mnt/0436A97F36A9727A/gradle/gradle-3.5/bin # configure PATH
+gradle -v # verify installation
