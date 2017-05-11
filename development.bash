@@ -32,4 +32,7 @@ export PATH=$PATH:/mnt/0436A97F36A9727A/gradle/gradle-3.5/bin # configure PATH
 gradle -v # verify installation
 
 # Install LAMP Stack
-http://mstd.eu/index.php/2016/07/20/install-lamp-stack-on-elementary-os/ # sudo add-apt-repository ppa:ondrej/php
+http://mstd.eu/index.php/2016/07/20/install-lamp-stack-on-elementary-os/
+# sudo add-apt-repository ppa:ondrej/php
+# sudo apt-get install php5.6 libapache2-mod-php5.6
+# sudo apt-get install php5.6-mysql
