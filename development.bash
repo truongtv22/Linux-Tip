@@ -43,3 +43,7 @@ sudo nano /etc/apache2/apache.conf
 # Add the following in apache configuration file
 Include /etc/phpmyadmin/apache.conf
 
+# Give your owner read/write privileges to the folders and the files, and permit folder access to traverse the directory structure
+sudo chown -R truongtv22 /var/www/html/
+sudo find /var/www/html -type d -exec chmod u+rwx {} +
+sudo find /var/www/html -type f -exec chmod u+rw {} +
