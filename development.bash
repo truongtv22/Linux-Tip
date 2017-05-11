@@ -35,4 +35,4 @@ gradle -v # verify installation
 http://mstd.eu/index.php/2016/07/20/install-lamp-stack-on-elementary-os/
 # sudo add-apt-repository ppa:ondrej/php
 # sudo apt-get install php5.6 libapache2-mod-php5.6
-# sudo apt-get install php5.6-mysql
+# sudo apt-get install php5.6-mysql php-xdebug php5.6-mbstring php5.6-curl php5.6-mcrypt php5.6-memcache
