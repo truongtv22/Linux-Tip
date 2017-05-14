@@ -34,7 +34,7 @@ sudo apt-get update
 sudo apt-get install gnome-system-monitor
 
 # Install VLC 3.0 Nightly
-sudo add-apt-repository ppa:videolan/master-daily
+sudo add-apt-repository ppa:nicola-onorata/desktop
 sudo apt install vlc
 
 # Uninstall package
